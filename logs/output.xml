@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on linux)" generated="20220812 20:52:41.321" rpa="false" schemaversion="3">
+<suite id="s1" name="Tests" source="/home/edson/robotframework/teasyStructure/tests">
+<suite id="s1-s1" name="Flowtests.Tests" source="/home/edson/robotframework/teasyStructure/tests/flowtests.tests.robot">
+<test id="s1-s1-t1" name="Calculo Soma Cinco Macro" line="11">
+<kw name="Start test" library="hooks.pages.commons" type="SETUP">
+<kw name="Open Browser">
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20220812 20:52:41.356" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.355" endtime="20220812 20:52:41.356"/>
+</kw>
+<kw name="Set Window Size">
+<arg>${BROWSER_CUSTOMER_WIDTH}</arg>
+<arg>${BROWSER_CUSTOMER_HEIGHT}</arg>
+<status status="NOT RUN" starttime="20220812 20:52:41.358" endtime="20220812 20:52:41.358"/>
+</kw>
+<kw name="Set Selenium Implicit Wait">
+<arg>${TIME_TO_WAIT}</arg>
+<status status="NOT RUN" starttime="20220812 20:52:41.360" endtime="20220812 20:52:41.360"/>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.354" endtime="20220812 20:52:41.360"/>
+</kw>
+<kw name="Finish Test" library="hooks.pages.commons" type="TEARDOWN">
+<kw name="Capture Page Screenshot">
+<msg timestamp="20220812 20:52:41.363" level="FAIL">No keyword with name 'Capture Page Screenshot' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.363" endtime="20220812 20:52:41.363"/>
+</kw>
+<kw name="Close Browser">
+<arg>${BROWSER}</arg>
+<msg timestamp="20220812 20:52:41.364" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.364" endtime="20220812 20:52:41.364"/>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.361" endtime="20220812 20:52:41.364">Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.353" endtime="20220812 20:52:41.365">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="Calculo Soma Cinco Separado" line="14">
+<kw name="Start test" library="hooks.pages.commons" type="SETUP">
+<kw name="Open Browser">
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20220812 20:52:41.367" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.367" endtime="20220812 20:52:41.367"/>
+</kw>
+<kw name="Set Window Size">
+<arg>${BROWSER_CUSTOMER_WIDTH}</arg>
+<arg>${BROWSER_CUSTOMER_HEIGHT}</arg>
+<status status="NOT RUN" starttime="20220812 20:52:41.369" endtime="20220812 20:52:41.369"/>
+</kw>
+<kw name="Set Selenium Implicit Wait">
+<arg>${TIME_TO_WAIT}</arg>
+<status status="NOT RUN" starttime="20220812 20:52:41.371" endtime="20220812 20:52:41.371"/>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.366" endtime="20220812 20:52:41.371"/>
+</kw>
+<kw name="Finish Test" library="hooks.pages.commons" type="TEARDOWN">
+<kw name="Capture Page Screenshot">
+<msg timestamp="20220812 20:52:41.374" level="FAIL">No keyword with name 'Capture Page Screenshot' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.373" endtime="20220812 20:52:41.374"/>
+</kw>
+<kw name="Close Browser">
+<arg>${BROWSER}</arg>
+<msg timestamp="20220812 20:52:41.375" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20220812 20:52:41.375" endtime="20220812 20:52:41.375"/>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.372" endtime="20220812 20:52:41.376">Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20220812 20:52:41.365" endtime="20220812 20:52:41.376">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Several failures occurred:
+
+1) No keyword with name 'Capture Page Screenshot' found.
+
+2) No keyword with name 'Close Browser' found.</status>
+</test>
+<status status="FAIL" starttime="20220812 20:52:41.344" endtime="20220812 20:52:41.376"/>
+</suite>
+<status status="FAIL" starttime="20220812 20:52:41.323" endtime="20220812 20:52:41.377"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Flowtests.Tests">Tests.Flowtests.Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220812 20:52:41.347" level="ERROR">Error in file '/home/edson/robotframework/teasyStructure/pages/commons/hooks.pages.commons.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/edson/.local/bin
+  /usr/lib/python310.zip
+  /usr/lib/python3.10
+  /usr/lib/python3.10/lib-dynload
+  /home/edson/.local/lib/python3.10/site-packages
+  /usr/local/lib/python3.10/dist-packages
+  /usr/lib/python3/dist-packages</msg>
+<msg timestamp="20220812 20:52:41.351" level="ERROR">Error in file '/home/edson/robotframework/teasyStructure/pages/CalculatorHomePage.pages.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /home/edson/.local/bin
+  /usr/lib/python310.zip
+  /usr/lib/python3.10
+  /usr/lib/python3.10/lib-dynload
+  /home/edson/.local/lib/python3.10/site-packages
+  /usr/local/lib/python3.10/dist-packages
+  /usr/lib/python3/dist-packages</msg>
+</errors>
+</robot>
